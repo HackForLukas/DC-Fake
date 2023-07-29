@@ -41,7 +41,7 @@ def getinfo(id):
     print(f"Json Data: {json}")
 
 def start(id):
-    if len(id) == 18:
+    if len(id) == 19:
         getinfo(id)
     else:
         print("Error ID Invalid")
